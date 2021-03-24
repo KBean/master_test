@@ -26,8 +26,35 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "%",
+            "to": ""
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "int_rate"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "SUBSTRING"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +62,32 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "loan_status": 100,
+    "funded_amnt": 100,
+    "emp_length": 120,
+    "annual_inc": 120,
+    "purpose": 141,
+    "issue_d": 100,
+    "emp_title": 204,
+    "home_ownership": 120,
+    "verification_status": 183,
+    "title": 218,
+    "zip_code": 100,
+    "url": 100,
+    "addr_state": 100,
+    "issue_date": 120,
+    "pymnt_plan": 100,
+    "funded_amnt_inv": 128,
+    "installment": 100,
+    "grade": 100,
+    "dti": 100,
+    "loan_amnt": 100,
+    "term": 100,
+    "int_rate": 100,
+    "sub_grade": 100,
+    "desc": 218
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
