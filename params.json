@@ -121,7 +121,7 @@
       }
     }
   },
-  "name": "master_test",
+  "name": "master_test (branch)",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -177,11 +177,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1616557654325
+    "lastModifiedOn": 1616557657141
   },
   "creationTag": {
     "versionNumber": 0,
@@ -190,7 +190,7 @@
     },
     "lastModifiedOn": 1616557397644
   },
-  "shortDesc": "The project *master_test* was created by Administrator on Mar 24th 2021",
+  "shortDesc": "The project *master_test* was created by Administrator on Mar 24th 2021\nThe project *MASTER_TEST_BRANCH* was copied from *MASTER_TEST* by Administrator on Mar 24th 2021",
   "tags": [
     "duplicated"
   ],
